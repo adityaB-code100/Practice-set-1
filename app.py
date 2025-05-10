@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load trained model and encoders
-# model = joblib.load('salary.joblib')              # This should be your trained regression model
-# label_encoders = joblib.load('salary_encoders.joblib')  # This should be your saved label encoders dict
+
 model = joblib.load('salary_model.joblib')
 label_encoders = joblib.load('salary_encoders.joblib')
 
